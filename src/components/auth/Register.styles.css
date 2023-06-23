@@ -1,0 +1,32 @@
+.form-container{
+    max-width: 350px;
+    width: 100%;
+    margin: 2rem auto;
+}
+.form-container h2{
+    margin-bottom: 1rem;
+}
+.form-container button, .form-container input{
+    height: 35px;
+    width: 100%;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+    margin-bottom: 1rem;
+
+    &:focus{
+        border: 1px solid rgb(0, 208, 255);
+    }
+}
+.form-container button{
+    cursor: pointer;
+
+    &:focus{
+        border: none;
+    }
+}
+.form-container p{
+    font-size: 14px;
+    color: red;
+}
